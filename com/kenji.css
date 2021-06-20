@@ -1,0 +1,249 @@
+@CHARSET "windows-31j";
+/*
+　エラーがでる古い内容を除去
+ 20160108 kaneshi baselist.tdにpadding-left,padding-right追加
+
+*/
+html, body, div,
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, li, dl, dt, dd,
+table,form, fieldset{
+  margin: 0;
+  padding:0;
+}
+th,td,textarea{
+	margin: 2;
+  padding:3;
+}
+
+input ,select{
+vertical-align:middle;
+}
+input{
+	margin:3;
+	padding-top:0;
+	padding-bottom:0;
+}
+img, fieldset{
+  border: none;
+}
+
+html {
+   overflow:auto;
+}
+body {
+	background-color:#F9FBE0;
+}
+th {
+	font-weight:bold;
+}
+img {
+	border:transparent;
+}
+table.header {
+  background-color:#4600BB;
+  margin:3;
+  width:100%
+}
+table.header th{
+  margin:0;
+  padding:3;
+  color  :#FFFFFF;
+  font-size:large;
+}
+
+table.sc {
+  border-collapse:collapse;
+}
+
+table.sc th,td{
+  margin:0;
+  padding:0;
+  white-space: nowrap;
+  text-align:left;
+}
+
+table.basetable {
+	margin:2;
+  border-collapse: collapse;
+  background-color: lavender;
+}
+
+table.basetable  th {
+	padding:4;
+  white-space: nowrap;
+  text-align: left;
+  background-color: lightslategray;
+  color: mintcream;
+  border:ridge 1.5px white;
+}
+
+table.basetable  td {
+  white-space: nowrap;
+  background-color: lavender;
+  border: ridge 1.5px grey;
+}
+
+
+table.baselist {
+	margin:2;
+  border-collapse: collapse;
+  background-color: lavender;
+}
+
+table.baselist th{
+  white-space: nowrap;
+  border:ridge 1.5px white;
+  text-align: center;
+  background-color: lightslategray;
+  color: mintcream;
+}
+table.baselist td{
+  white-space: nowrap;
+  border:ridge 1px gray;
+	border-color:grey;
+  background-color: lavender;
+  padding-left:0.2em;/* 20160108 */
+  padding-right:0.2em;
+}
+
+
+
+table.yellowlist {
+	margin:2;
+  border-collapse: collapse;
+  background-color: lightyellow;
+}
+
+table.yellowlist th{
+  white-space: nowrap;
+  border:ridge 1px grey;
+  text-align: center;
+}
+table.yellowlist td{
+  white-space: nowrap;
+  border:ridge 1px grey;
+}
+
+
+table.thinborder {
+  border-collapse: collapse;
+}
+table.thinborder th {
+  white-space: nowrap;
+  text-align: center;
+  border: ridge 1px white;
+}
+
+table.thinborder td {
+  white-space: nowrap;
+  border: ridge 1px grey;
+}
+
+
+table.thingreyborder {
+	margin:2;
+  border-collapse: collapse;
+	border: ridge 1px grey;
+}
+
+table.thingreyborder th {
+	padding:3;
+  white-space: nowrap;
+  text-align: center;
+  border:ridge 1px grey;
+}
+
+table.thingreyborder td {
+	padding:3;
+  white-space: nowrap;
+  border: ridge 1px grey;
+}
+
+table.noborder {
+  border:transparent;
+}
+table.noborder th {
+  margin: 2;
+  white-space: nowrap;
+  border: transparent;
+	text-align: center;
+}
+table.noborder td {
+  margin: 2;
+  white-space: nowrap;
+  border: transparent;
+}
+
+table.frameleft {
+  border-top:transparent;
+  border-bottom:transparent;
+  border-left:transparent;
+  border-right:ridge 1px white;
+}
+table.frameleft th,td {
+  border:0;
+  padding:0;
+  margin:0;
+  text-align:left;
+  white-space:nowrap;
+}
+
+
+table.tree-left {
+  margin-top:0;
+  margin:0;
+  padding:0;
+  border-top:transparent;
+  border-bottom:transparent;
+  border-left:transparent;
+  border-right:ridge 1px white;
+}
+
+table.tree-left th {
+  border:transparent;
+  padding:0;
+  margin:0;
+  text-align:left;
+  white-space: nowrap;
+	line-height:1em;
+}
+table.tree-left td {
+  border:transparent;
+  padding:0;
+  margin:0;
+  text-align:left;
+  white-space: nowrap;
+	line-height:1em;
+}
+
+table.tree-opt {
+  margin-top:-0.1em;
+	margin-bottom:-0.1em;
+  padding:0;
+  border:transparent;
+}
+
+table.tree-opt th {
+  border:transparent;
+	margin:0;
+	padding:0;
+	line-height:1em;
+  text-align:left;
+  white-space:nowrap;
+}
+
+table.tree-opt td {
+  border:transparent;
+	margin:0;
+	padding:0;
+	line-height:1em;
+  text-align:left;
+  white-space: nowrap;
+}
+
+table.tree-opt div {
+  margin:0;
+  padding:0;
+}
